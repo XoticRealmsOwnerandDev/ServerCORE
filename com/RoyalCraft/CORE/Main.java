@@ -20,6 +20,13 @@ public class Main extends Javaplugin; {
 
     public boolean onCommand(CommandSender Sender, Command cmd, String label, String[] args) {
         
+        if(!player.hasPermission("servercore.heal")) {
+            player.sendMessage(ChatColor.RED + "You do not have permission to do /heal")
+            
+        }
+        
+    } else {
+        
         if(cmd.getName().equals("Heal")) {
            if (sender instanceof Player) {
                Player player = (Player) sender;
