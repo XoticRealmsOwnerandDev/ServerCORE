@@ -1,3 +1,10 @@
 version: 1.0
 name: ServerCORE
 main: com.RoyalCraft.CORE.Main
+commands: 
+  heal:
+    aliases: []
+    description: Use this command in game to heal your self (Max will heal 50 full hearts
+  feed:
+    aliases: []
+    description: Use this command in game to feed your self
