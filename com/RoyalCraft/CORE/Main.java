@@ -4,6 +4,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.entity.player;
 import org.bukkit.Command;
 import org.bukkit.CommandSender;
+import org.bukkit.ChatColor;
 
 public class Main extends Javaplugin; {
 
